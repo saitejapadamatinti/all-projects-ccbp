@@ -1,0 +1,20 @@
+.backgroun-container {
+  background-image: linear-gradient(#d91c1f, #13418b);
+  padding: 10px;
+  height: 100%;
+}
+.banner-image {
+  width: 100%;
+}
+.ul-list {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.spinner-class {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  height: 100vh;
+}

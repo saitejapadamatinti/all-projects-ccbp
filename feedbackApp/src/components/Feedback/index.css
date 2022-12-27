@@ -1,0 +1,45 @@
+body {
+  background-image: linear-gradient(to left, #ffeeee, #ffc0bb);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.FeedbackItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.FeedbackItem img {
+  width: 100px;
+}
+.heartIcon {
+  width: 100px;
+}
+.FeedbackCardsContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.FeedbackContainer {
+  background-color: #ffffff;
+  width: 80%;
+  padding: 40px;
+  margin: auto;
+  border-radius: 20px;
+}
+.FeedbackContainer h1 {
+  text-align: center;
+  color: #0f172a;
+}
+
+.FeedbackContainer p {
+  color: #1e293b;
+  font-size: 20px;
+  font-weight: 700;
+}

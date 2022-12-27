@@ -1,0 +1,27 @@
+.loginImage {
+  width: 300px;
+}
+.loginContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.logo {
+  width: 200px;
+}
+
+input {
+  width: 200px;
+  height: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+button {
+  margin-top: 5px;
+}
+.message {
+  color: #ff0b37;
+}

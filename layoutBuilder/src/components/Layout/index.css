@@ -1,0 +1,20 @@
+/* Write your CSS here */
+.layout-div {
+  padding-left: 80px;
+  display: flex;
+}
+.left-nav-div {
+  background-color: #cbd5e1;
+  width: 500px;
+  padding: 20px;
+}
+.content-nav-div {
+  background-color: #f1f5f9;
+  width: 100%;
+  padding: 20px;
+}
+.right-nav-div {
+  background-color: #cbd5e1;
+  width: 500px;
+  padding: 20px;
+}

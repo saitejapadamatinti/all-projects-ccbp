@@ -1,0 +1,13 @@
+.matchCard {
+  display: flex;
+  justify-content: space-evenly;
+  color: #fff;
+  background-color: #1e293b;
+  margin: 30px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.teamLogo {
+  width: 150px;
+}

@@ -1,0 +1,8 @@
+.events {
+  background-color: #323f4b;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}

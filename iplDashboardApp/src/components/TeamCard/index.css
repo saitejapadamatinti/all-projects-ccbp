@@ -1,0 +1,19 @@
+.team-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid #ffffff;
+  height: 200px;
+  margin: 13px;
+  background-color: #ffffff33;
+}
+.team-image {
+  width: 100px;
+  margin-right: 10px;
+}
+.image-container {
+  width: 100px;
+}

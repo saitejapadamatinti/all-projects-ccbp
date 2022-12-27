@@ -1,0 +1,12 @@
+button {
+  background-color: #0b69ff;
+  border: 0;
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 20px;
+}
+
+.container {
+  display: flex;
+  margin: 50px;
+}

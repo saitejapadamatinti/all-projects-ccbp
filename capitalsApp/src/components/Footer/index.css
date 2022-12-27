@@ -1,0 +1,105 @@
+/* .fotter-container{
+    display: flex;
+} */
+.footer-dicover-more-div {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid #3c2f4e;
+  align-items: center;
+}
+
+.fotter-discover-logo {
+  display: flex;
+  align-items: center;
+}
+.fotter-discover-logo p {
+  color: #fff;
+  font-size: 20px;
+}
+.footer-brain-logo {
+  width: 80px;
+  margin-right: 10px;
+}
+
+.fotter-banner-btn {
+  background-color: #6654e8;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  font-weight: 600;
+}
+/*  */
+.fotter-bottom-div {
+  padding-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer-logo-div {
+  display: flex;
+  color: #fff;
+}
+.footer-logo {
+  width: 40px;
+  margin-right: 10px;
+}
+.footer-subscribe-para {
+  color: rgb(175, 175, 175);
+  margin: 20px 0px;
+}
+.email-input-div {
+  background-color: #fff;
+  width: 240px;
+  display: flex;
+}
+.footer-email-input {
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 200px;
+  padding-left: 10px;
+}
+.footer-tel-icon-div {
+  display: flex;
+  justify-content: right;
+  width: 100%;
+  align-items: center;
+  padding-right: 10px;
+}
+.teligram-icon-footer {
+  font-size: 26px;
+  color: #6654e8;
+}
+.footer-links h4 {
+  color: #fff;
+  margin-bottom: 30px;
+}
+.footer-links-ul {
+  list-style-type: none;
+  color: #a396b4;
+}
+.footer-header-icon {
+  color: #fff;
+  background-color: #100d16;
+  width: 30px;
+  height: 30px;
+  padding: 8px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+@media screen and (max-width: 767px) {
+  .fotter-discover-logo {
+    font-size: 12px;
+  }
+  .footer-brain-logo {
+    width: 50px;
+  }
+  .fotter-discover-logo p {
+    font-size: 12px;
+  }
+  .fotter-banner-btn {
+    font-size: 12px;
+    padding: 10px;
+  }
+}

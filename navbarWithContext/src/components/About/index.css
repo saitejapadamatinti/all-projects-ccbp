@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.about-app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.about-bg-dark {
+  background-color: #000000;
+}
+
+.about-bg-light {
+  background-color: #ffffff;
+}
+
+.about-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.about-image {
+  height: 124px;
+}
+
+.about-heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-heading {
+    font-size: 48px;
+  }
+}
+
+.about-text-light {
+  color: #ffffff;
+}
+
+.about-text-dark {
+  color: #1e293b;
+}

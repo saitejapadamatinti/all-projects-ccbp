@@ -1,0 +1,45 @@
+.test-main-div {
+  display: flex;
+}
+
+.test-user-div {
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.test-blue-icon {
+  color: #6652e8;
+}
+.test-white-icon {
+  color: rgb(126, 126, 126);
+}
+
+.test-aleesha-div {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  justify-content: space-between;
+}
+.test-user {
+  width: 140px;
+  height: 140px;
+  border-radius: 100%;
+  margin-bottom: 40px;
+}
+.test-img {
+  width: 50px;
+}
+.test-para {
+  line-height: 30px;
+  font-size: 22px;
+}
+.test-head {
+  color: #6652e8;
+}
+@media screen and (max-width: 767px) {
+  .test-main-div {
+    flex-direction: column;
+  }
+}

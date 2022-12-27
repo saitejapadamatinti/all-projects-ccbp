@@ -1,0 +1,10 @@
+/* Write your code here. */
+.gallery-image {
+  width: 50%;
+}
+.ul-list {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+}

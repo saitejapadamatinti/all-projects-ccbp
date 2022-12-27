@@ -1,0 +1,35 @@
+.notification {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding-top: 8px;
+  padding-left: 22px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .notification {
+    padding-top: 12px;
+    padding-left: 20px;
+    padding-bottom: 12px;
+    padding-right: 20px;
+  }
+}
+
+.notification-content {
+  display: flex;
+}
+
+.close-icon {
+  color: #475569;
+  height: 70px;
+  min-width: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+}

@@ -1,0 +1,34 @@
+.card-1 {
+  border-top: 5px solid #ff4f64;
+}
+
+.card-2 {
+  border-top: 5px solid #00a8e7;
+}
+
+.card-3 {
+  border-top: 5px solid #44c4a1;
+}
+
+.card-4 {
+  border-top: 5px solid #fcc200;
+}
+
+/* Write CSS code here. */
+.divContainer {
+  width: 30%;
+  margin: 10px;
+  padding: 50px;
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
+  margin: 20px;
+  padding: 30px;
+  border-radius: 15px;
+}
+.image-cls {
+  text-align: right;
+}

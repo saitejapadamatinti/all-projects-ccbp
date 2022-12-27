@@ -1,0 +1,90 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.main-main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+.main-container-2 {
+  width: 100%;
+}
+.manage-container {
+  width: 70%;
+}
+.test-container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  background-color: #f7f7f9;
+  padding: 50px 0px;
+}
+.test-manage-container {
+  width: 90%;
+}
+.easy-solutions-div-home {
+  padding-bottom: 60px;
+}
+.offer-banner-div {
+  /* background-image: url('https://res.cloudinary.com/dj2ghn49v/image/upload/v1670075873/Vector_2646_o7oqu5.jpg'); */
+  background-color: #1c1525;
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  padding: 70px 0px;
+}
+.hr-line {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.achivements-banner-div {
+  background-color: #fff;
+}
+.helping-div {
+  background-color: #1c1525;
+  color: #fff;
+}
+.news-component {
+  width: 80%;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.footer-component {
+  width: 80%;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.footer-main-div {
+  background-color: #1c1525;
+}
+
+@media screen and (max-width: 767px) {
+  .manage-container {
+    width: 100%;
+  }
+  .test-container {
+    width: 100%;
+  }
+  .test-manage-container {
+    width: 100%;
+  }
+  .news-component {
+    width: 100%;
+  }
+  .footer-component {
+    width: 100%;
+  }
+  .easy-solutions-div-home {
+    margin: 0px;
+    padding: 0px;
+  }
+  .offer-banner-div {
+    padding: 10px;
+  }
+}

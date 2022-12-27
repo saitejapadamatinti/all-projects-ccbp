@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.main-container {
+  min-height: 100vh;
+}
+.top-con {
+  min-height: 500px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.heading {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: 'roboto';
+  margin-left: 50px;
+}
+.para {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'roboto';
+  margin-left: 50px;
+}
+.bottom-con {
+  background-color: #152850;
+  min-height: 500px;
+  margin-top: -16px;
+}

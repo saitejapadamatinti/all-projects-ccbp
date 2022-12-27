@@ -1,0 +1,10 @@
+.copy-rights-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  background-color: #100d18;
+  color: #878391;
+  font-size: 12px;
+}

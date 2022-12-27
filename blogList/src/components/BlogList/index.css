@@ -1,0 +1,9 @@
+/* Write your CSS code here */
+.ul-item {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+.blog-list-div {
+  width: 60%;
+}

@@ -1,0 +1,26 @@
+.manage-it-ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-top: 70px;
+}
+.manage-li-div {
+  width: 32%;
+  height: 300px;
+}
+.manage-it-head {
+  color: #fff;
+  padding: 20px;
+}
+@media screen and (max-width: 767px) {
+  .manage-it-ul {
+    flex-direction: column;
+    margin-top: 0px;
+  }
+  .manage-li-div {
+    width: 100%;
+  }
+  .manage-li-div {
+    padding: 5px 0px;
+  }
+}

@@ -1,0 +1,58 @@
+.main-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Roboto';
+}
+
+.main-heading {
+  font-family: 'Lobster';
+  color: #0f172a;
+  font-size: 38px;
+}
+
+.ul-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.repo-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  list-style-type: none;
+  padding: 0px;
+  flex-wrap: wrap;
+}
+
+.f-image {
+  width: 70%;
+  height: 60%;
+}
+
+.error-msg {
+  font-size: 35px;
+}
+
+@media screen and (max-width: 576px) {
+  .f-image {
+    width: 90%;
+    height: 60%;
+  }
+
+  .error-msg {
+    color: #1e293b;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Lobster';
+  }
+}

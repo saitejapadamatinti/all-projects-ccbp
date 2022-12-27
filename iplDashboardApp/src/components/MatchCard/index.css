@@ -1,0 +1,18 @@
+.list-container {
+  background-color: #0f172a;
+  padding: 10px;
+  border-radius: 10px;
+  height: 400px;
+  width: 300px;
+  margin: 15px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.logo-image {
+  width: 100px;
+  max-height: 100px;
+}

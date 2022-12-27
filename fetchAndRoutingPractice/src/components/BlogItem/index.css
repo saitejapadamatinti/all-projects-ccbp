@@ -1,0 +1,26 @@
+.blog-image {
+  width: 50%;
+}
+.image-1 {
+  width: 300px;
+}
+.main-container {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #8e8e8e;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.content-container {
+  padding: 20px;
+}
+.avatar-image {
+  width: 50px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+.bottom-container {
+  display: flex;
+  align-items: center;
+}

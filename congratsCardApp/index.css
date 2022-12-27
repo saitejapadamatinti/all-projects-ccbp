@@ -1,0 +1,27 @@
+/* Write your code here. */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.background-container {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png");
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+}
+.image-div {
+  text-align: center;
+  background-color: #cffafe;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.heading {
+  margin: 10px 0px 10px 0px;
+}
+.image-2 {
+  margin-top: 20px;
+}

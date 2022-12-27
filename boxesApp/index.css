@@ -1,0 +1,30 @@
+/* Write your code here. */
+.main-div {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  font-family: "Roboto";
+}
+.box-1 {
+  background-color: #fbbf24;
+  color: #fff;
+  width: 20%;
+}
+.box-2 {
+  background-color: #38bdf8;
+  color: #fff;
+  width: 30%;
+}
+.box-3 {
+  background-color: #ec4899;
+  color: #fff;
+  width: 50%;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Bree Serif";
+}

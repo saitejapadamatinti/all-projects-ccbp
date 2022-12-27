@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.repo-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  width: 200px;
+  height: auto;
+  background-color: #f8f8ff;
+  border-radius: 10px;
+  font-family: 'Roboto';
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.repo-image {
+  width: 50%;
+  height: 50%;
+}
+
+.repo-name {
+  color: #e73959;
+  font-size: 20px;
+}
+
+.icon-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.icon-img {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+.repo-para {
+  color: #1e293b;
+  font-size: 12px;
+  font-weight: normal;
+}

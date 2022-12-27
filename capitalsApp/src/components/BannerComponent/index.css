@@ -1,0 +1,88 @@
+.banner {
+  background-image: url('https://res.cloudinary.com/dj2ghn49v/image/upload/v1670068282/robot-handshake-human-background-futuristic-digital-age_kxvutd.jpg');
+  background-size: auto;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+}
+.banner-div-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.banner-it-solution-para {
+  font-size: 38px;
+  color: #2fb690;
+}
+.banner-technology-para {
+  font-size: 120px;
+  color: #fff;
+}
+.banner-btn {
+  background-color: #6654e8;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  font-weight: 600;
+}
+.banner-play-icon {
+  font-size: 45px;
+  color: #fff;
+}
+.banner-watch-para {
+  color: #fff;
+  margin-left: 10px;
+}
+.banner-button-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner-play-div {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+.banner-bottom-para-div {
+  display: flex;
+  justify-content: center;
+  background-color: #6654e8;
+  color: rgb(219, 219, 219);
+  padding: 25px 0px;
+}
+.banner-bottom-para-div span {
+  font-weight: 600;
+  border-bottom: 3px solid #aed6f7;
+  color: #fff;
+}
+@media screen and (max-width: 767px) {
+  .banner {
+    height: 200px;
+    background-size: cover;
+  }
+  .banner-it-solution-para {
+    font-size: 13px;
+  }
+  .banner-technology-para {
+    font-size: 38px;
+  }
+  .banner-btn {
+    font-size: 10px;
+    padding: 10px;
+  }
+  .banner-watch-para {
+    font-size: 12px;
+  }
+  .banner-play-icon {
+    font-size: 30px;
+  }
+  .banner-bottom-para-div {
+    padding: 10px;
+    font-size: 12px;
+  }
+}

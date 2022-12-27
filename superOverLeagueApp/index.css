@@ -1,0 +1,22 @@
+/* Write your code here. */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.className-div {
+  background-color: #0f172a;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  width: 300px;
+}
+.heading {
+  font-size: 50px;
+  color: #fff;
+  font-family: "Roboto";
+  margin-bottom: 10px;
+}
